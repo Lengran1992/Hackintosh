@@ -38,6 +38,14 @@
 				<key>Path</key>
 				<string>SSDT-USBX-AMD.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>USBX-AMD</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-USBX-AMD.aml</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -1417,9 +1425,9 @@
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
-			<integer>2147483650</integer>
+			<integer>2147483714</integer>
 			<key>Target</key>
-			<integer>19</integer>
+			<integer>67</integer>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -1544,21 +1552,109 @@
 	<key>PlatformInfo</key>
 	<dict>
 		<key>Automatic</key>
-		<true/>
-		<key>Generic</key>
+		<false/>
+		<key>DataHub</key>
 		<dict>
-			<key>MLB</key>
-			<string>F5K913501QX0000AD</string>
-			<key>ROM</key>
-			<data>XoJ9bXuX</data>
-			<key>SpoofVendor</key>
-			<true/>
+			<key>ARTFrequency</key>
+			<integer>0</integer>
+			<key>BoardProduct</key>
+			<string>Mac-F60DEB81FF30ACF6</string>
+			<key>BoardRevision</key>
+			<data>AQ==</data>
+			<key>DevicePathsSupported</key>
+			<integer>1</integer>
+			<key>FSBFrequency</key>
+			<integer>0</integer>
+			<key>InitialTSC</key>
+			<integer>0</integer>
+			<key>PlatformName</key>
+			<string>platform</string>
+			<key>SmcBranch</key>
+			<data>AAAAAAAAAAA=</data>
+			<key>SmcPlatform</key>
+			<data>AAAAAAAAAAA=</data>
+			<key>SmcRevision</key>
+			<data>ATkPAAAF</data>
+			<key>StartupPowerEvents</key>
+			<integer>0</integer>
 			<key>SystemProductName</key>
-			<string>MacPro7,1</string>
+			<string>MacPro6,1</string>
 			<key>SystemSerialNumber</key>
-			<string>F5KYHAZZP7QM</string>
+			<string>F5KRH4Y7F9VM</string>
 			<key>SystemUUID</key>
-			<string>31932C58-3E0C-4721-AE30-0436D66D7B97</string>
+			<string>662EA367-A849-42E8-B32A-22D1D6919903</string>
+		</dict>
+		<key>PlatformNVRAM</key>
+		<dict>
+			<key>BID</key>
+			<string>Mac-F60DEB81FF30ACF6</string>
+			<key>FirmwareFeatures</key>
+			<data>duEP6AAAAAA=</data>
+			<key>FirmwareFeaturesMask</key>
+			<data>f/8f/wAAAAA=</data>
+			<key>MLB</key>
+			<string>F5K613207GUFHDDJA</string>
+			<key>ROM</key>
+			<data>f7W2kZkD</data>
+		</dict>
+		<key>SMBIOS</key>
+		<dict>
+			<key>BIOSReleaseDate</key>
+			<string>07/24/2019</string>
+			<key>BIOSVendor</key>
+			<string></string>
+			<key>BIOSVersion</key>
+			<string>133.0.0.0.0</string>
+			<key>BoardAssetTag</key>
+			<string>Pro-Enclosure</string>
+			<key>BoardLocationInChassis</key>
+			<string>Part Component</string>
+			<key>BoardManufacturer</key>
+			<string></string>
+			<key>BoardProduct</key>
+			<string>Mac-F60DEB81FF30ACF6</string>
+			<key>BoardSerialNumber</key>
+			<string>F5K613207GUFHDDJA</string>
+			<key>BoardType</key>
+			<integer>11</integer>
+			<key>BoardVersion</key>
+			<string>1.0</string>
+			<key>ChassisAssetTag</key>
+			<string>Pro-Enclosure</string>
+			<key>ChassisManufacturer</key>
+			<string></string>
+			<key>ChassisSerialNumber</key>
+			<string>F5KRH4Y7F9VM</string>
+			<key>ChassisType</key>
+			<integer>2</integer>
+			<key>ChassisVersion</key>
+			<string>Mac-F60DEB81FF30ACF6</string>
+			<key>FirmwareFeatures</key>
+			<data>duEP6AAAAAA=</data>
+			<key>FirmwareFeaturesMask</key>
+			<data>f/8f/wAAAAA=</data>
+			<key>MemoryFormFactor</key>
+			<integer>9</integer>
+			<key>PlatformFeature</key>
+			<integer>0</integer>
+			<key>ProcessorType</key>
+			<integer>0</integer>
+			<key>SmcVersion</key>
+			<data>AAAAAAAAAAAAAAAAAAAAAA==</data>
+			<key>SystemFamily</key>
+			<string>MacPro</string>
+			<key>SystemManufacturer</key>
+			<string></string>
+			<key>SystemProductName</key>
+			<string>MacPro5,1</string>
+			<key>SystemSKUNumber</key>
+			<string>Mac-F60DEB81FF30ACF6</string>
+			<key>SystemSerialNumber</key>
+			<string>F5KRH4Y7F9VM</string>
+			<key>SystemUUID</key>
+			<string>662EA367-A849-42E8-B32A-22D1D6919903</string>
+			<key>SystemVersion</key>
+			<string>1.1</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
