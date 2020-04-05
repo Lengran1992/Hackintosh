@@ -1,6 +1,8 @@
 # Hackintosh
 不定期更新
 
+---------------------------------------------------------
+
 # 我的电脑配置
 
 处理器：AMD Ryzen 5 3600X 6-Core 六核
@@ -27,12 +29,12 @@
 
 1.config.plist按照官方文档的格式重新进行排列
 
-2.SMCAMDProcessor.kext 更新至1.0，添加 AMDRyzenCPUPowerManagement.kext，不再需要依赖VirtualSMC.kext
-项目地址：https://github.com/trulyspinach/SMCAMDProcessor/releases
+2.SMCAMDProcessor.kext 更新至1.0，添加 AMDRyzenCPUPowerManagement.kext，不再需要依赖VirtualSMC.kext，项目地址：https://github.com/trulyspinach/SMCAMDProcessor/releases
 
 3.推荐个神器 Kext Updater，下载地址：https://bitbucket.org/profdrluigi/kextupdater/downloads/ 
 
 驱动均已全部更新至最新
+
 AppleALC.kext 1.4.7
 
 Lilu.kext 1.4.2
@@ -54,6 +56,7 @@ VoodooPS2Controller.kext 2.1.2
 WhateverGreen.kext 1.3.7
 
 ---------------------------------------------------------
+
 2020年3月26日 
 
 更新支持10.15.4，自动开启HDR，如果屏幕发白，可以前往设置-显示器，关闭高动态范围
