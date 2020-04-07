@@ -25,25 +25,45 @@
 
 # 驱动版本（2020.4.7最新）
 
-AppleALC.kext 1.4.8 定制万能声卡驱动
+AppleALC.kext
+1.4.8
+定制万能声卡驱动
 
-Lilu.kext 1.4.3 SDK & Library
+Lilu.kext
+1.4.3
+SDK & Library
 
-Innie.kext 1.2.0 磁盘外置修复驱动
+Innie.kext
+1.2.0
+磁盘外置修复驱动
 
-NoTouchID.kext 1.0.3 禁用 Touch ID 检测, 修复输密码时卡顿
+NoTouchID.kext
+1.0.3
+禁用 Touch ID 检测, 修复输密码时卡顿
 
-SMCAMDProcessor.kext 1.0 AMD CPU 检测驱动
+SMCAMDProcessor.kext
+1.0
+AMD CPU 检测驱动
 
-AMDRyzenCPUPowerManagement.kext 0.6 AMD CPU 检测驱动
+AMDRyzenCPUPowerManagement.kext
+0.6
+AMD CPU 检测驱动
 
-SmallTreeIntel82576.kext 1.0.6 I211-AT 有线网卡驱动
+SmallTreeIntel82576.kext
+1.0.6
+I211-AT 有线网卡驱动
 
-VirtualSMC.kext 1.1.2 SMC 和传感器驱动
+VirtualSMC.kext
+1.1.2
+SMC 和传感器驱动
 
-VoodooPS2Controller.kext 2.1.2 PS2 键盘/触摸板 驱动
+VoodooPS2Controller.kext
+2.1.2
+PS2 键盘/触摸板 驱动
 
-WhateverGreen.kext 1.3.8 显卡补丁驱动
+WhateverGreen.kext
+1.3.8
+显卡补丁驱动
 
 ---------------------------------------------------------
 # 更新日志
