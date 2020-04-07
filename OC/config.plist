@@ -332,22 +332,6 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/Innie</string>
-				<key>BundlePath</key>
-				<string>Lilu.kext/Contents/PlugIns/Innie.kext</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-				<key>Enabled</key>
-				<true/>
-				<key>MinKernel</key>
-				<string></string>
-				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VirtualSMC</string>
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
@@ -543,6 +527,22 @@
 				<string>Contents/MacOS/WhateverGreen</string>
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/Innie</string>
+				<key>BundlePath</key>
+				<string>Innie.kext</string>
 			</dict>
 		</array>
 		<key>Block</key>
@@ -1619,7 +1619,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>debug=0x100 agdpmod=pikera keepsyms=1 npci=0x2000 IConfiguratorPFM64</string>
+				<string>debug=0x100 agdpmod=pikera npci=0x2000</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1714,10 +1714,10 @@
 			<string>FwRuntimeServices.efi</string>
 			<string>UsbKbDxe.efi</string>
 			<string>BootLiquor.efi</string>
-			<string>VBoxHfs.efi</string>
 			<string>MemoryAllocation.efi</string>
 			<string>AppleUsbKbDxe.efi</string>
 			<string>ApfsDriverLoader.efi</string>
+			<string>HfsPlus.efi</string>
 		</array>
 		<key>Audio</key>
 		<dict>

@@ -23,37 +23,40 @@
 
 ---------------------------------------------------------
 
+# 驱动版本（2020.4.7最新）
+
+AppleALC.kext 1.4.8 定制万能声卡驱动
+
+Lilu.kext 1.4.3 SDK & Library
+
+Innie.kext 1.2.0 磁盘外置修复驱动
+
+NoTouchID.kext 1.0.3 禁用 Touch ID 检测, 修复输密码时卡顿
+
+SMCAMDProcessor.kext 1.0 AMD CPU 检测驱动
+
+AMDRyzenCPUPowerManagement.kext 0.6 AMD CPU 检测驱动
+
+SmallTreeIntel82576.kext 1.0.6 I211-AT 有线网卡驱动
+
+VirtualSMC.kext 1.1.2 SMC 和传感器驱动
+
+VoodooPS2Controller.kext 2.1.2 PS2 键盘/触摸板 驱动
+
+WhateverGreen.kext 1.3.8 显卡补丁驱动
+
+---------------------------------------------------------
 # 更新日志
 
-2020年4月5日 
+2020年4月7日 
 
-1.config.plist按照官方文档的格式重新进行排列
+1.优化 config.plist，去除多余语句
 
-2.SMCAMDProcessor.kext 更新至1.0，添加 AMDRyzenCPUPowerManagement.kext，不再需要依赖VirtualSMC.kext，项目地址：https://github.com/trulyspinach/SMCAMDProcessor/releases
+2.进 recovery，需要 vboxhfs.efi 或 hfsplus.efi，如用 vboxhfs.efi 依旧无法进入，就换用 hfsplus.efi。（此 EFI 用的是 hfsplus.efi）
 
-3.推荐个神器 Kext Updater，下载地址：https://bitbucket.org/profdrluigi/kextupdater/downloads/ 
+3.SMCAMDProcessor.kext 更新至1.0，添加 AMDRyzenCPUPowerManagement.kext，不再需要依赖VirtualSMC.kext，项目地址：https://github.com/trulyspinach/SMCAMDProcessor/releases
 
-驱动均已全部更新至最新
-
-AppleALC.kext 1.4.7
-
-Lilu.kext 1.4.2
-
-Innie.kext 1.2.0
-
-NoTouchID.kext 1.0.3
-
-SMCAMDProcessor.kext 1.0
-
-AMDRyzenCPUPowerManagement.kext 0.6
-
-SmallTreeIntel82576.kext 1.0.6
-
-VirtualSMC.kext 1.1.1
-
-VoodooPS2Controller.kext 2.1.2
-
-WhateverGreen.kext 1.3.7
+4.推荐个神器 Kext Updater，下载地址：https://bitbucket.org/profdrluigi/kextupdater/downloads/ 
 
 ---------------------------------------------------------
 
