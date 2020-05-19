@@ -1,4 +1,4 @@
-# Hackintosh
+# Hackintosh（2020.5.19更新）
 欢迎提出意见建议，不定期更新。
 
 ---------------------------------------------------------
@@ -23,14 +23,14 @@
 
 ---------------------------------------------------------
 
-# 驱动版本（2020.4.7最新）
+# 驱动版本（2020.5.19最新）
 
 AppleALC.kext
-1.4.8
+1.4.9
 定制万能声卡驱动
 
 Lilu.kext
-1.4.3
+1.4.4
 SDK & Library
 
 Innie.kext
@@ -46,7 +46,7 @@ SMCAMDProcessor.kext
 AMD CPU 检测驱动
 
 AMDRyzenCPUPowerManagement.kext
-0.6
+0.6.3
 AMD CPU 检测驱动
 
 SmallTreeIntel82576.kext
@@ -54,7 +54,7 @@ SmallTreeIntel82576.kext
 I211-AT 有线网卡驱动
 
 VirtualSMC.kext
-1.1.2
+1.1.3
 SMC 和传感器驱动
 
 VoodooPS2Controller.kext
@@ -62,12 +62,17 @@ VoodooPS2Controller.kext
 PS2 键盘/触摸板 驱动
 
 WhateverGreen.kext
-1.3.8
+1.3.9
 显卡补丁驱动
 
 ---------------------------------------------------------
 # 更新日志
 
+2020年5月19日 
+
+OC内核更新至0.5.8；
+
+---------------------------------------------------------
 2020年4月7日 
 
 1.优化 config.plist，去除多余语句
